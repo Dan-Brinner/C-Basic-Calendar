@@ -66,9 +66,9 @@ int main() {
             }
 
             // Highlight the current day in green
-            if (k == current_day && k < 10) {
+            if (k == current_day && k < 10 && sel_month == current_month) {
                 printf("\033[1;32m %d \033[0m", k);
-            } else if (k == current_day) {
+            } else if (k == current_day && sel_month == current_month) {
                 printf("\033[1;32m%d \033[0m", k);
             } else if (k < 10) { // Add extra space for single-digit days for alignment
                 printf(" %d ", k);
