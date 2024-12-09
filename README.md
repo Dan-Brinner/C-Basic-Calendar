@@ -1,6 +1,7 @@
 # Interactive Calendar in C
 
 This is a simple interactive calendar program written in C. It displays the current month, highlights the current day, and allows users to navigate through months or exit the program.
+The purose of this project was to learn. 
 
 ## Features
 - Displays a formatted calendar for any month of the current year.
